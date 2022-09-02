@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 body{
     background: rgb(213,224,224);
@@ -59,14 +60,15 @@ a:link, a:visited{
     height: 50vh;
 }
 .conteiner-cont-prin{
-    width: 400px;
+    width: 700px;
     position: relative;
     top: 20%;
     left: 30px;
 }
-#paragrafo-prin{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+.paragrafo-prin{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
 }
 .conteiner-img-prin{
     width: 100vw;
@@ -77,3 +79,4 @@ a:link, a:visited{
     right: -60vw;
     top: -150px;
 }
+

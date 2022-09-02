@@ -6,6 +6,7 @@
 body{
     background: rgb(213,224,224);
     background: linear-gradient(90deg, rgba(213,224,224,1) 16%, rgba(215,222,223,1) 28%, rgba(170,188,189,1) 92%);
+
 }
 .conteiner-menu{
     width: 100vw;
@@ -13,8 +14,9 @@ body{
     padding: 10px;
     overflow-y: hidden;
     overflow-x: hidden;
-    background: rgb(35,171,110);
-    background: linear-gradient(90deg, rgba(35,171,110,1) 4%, rgba(101,187,196,1) 30%, rgba(26,120,144,1) 73%);
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
 }
 #nome{
     position: relative;
@@ -55,7 +57,6 @@ a:link, a:visited{
 .conteiner-conteudo{
     width: 100vw;
     height: 50vh;
-    background-color: yellow;
 }
 .conteiner-cont-prin{
     width: 400px;
@@ -66,4 +67,13 @@ a:link, a:visited{
 #paragrafo-prin{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+.conteiner-img-prin{
+    width: 100vw;
+    height: 50vh;
+}
+.img-prin{
+    position: relative;
+    right: -60vw;
+    top: -150px;
 }

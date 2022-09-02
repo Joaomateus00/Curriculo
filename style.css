@@ -74,9 +74,10 @@ a:link, a:visited{
     width: 100vw;
     height: 50vh;
 }
-.img-prin{
-    position: relative;
-    right: -60vw;
-    top: -150px;
-}
 
+#foto-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

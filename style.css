@@ -57,7 +57,8 @@ a:link, a:visited{
 }
 .conteiner-conteudo{
     width: 100vw;
-    height: 50vh;
+    height: 65vh;
+    overflow-y: hidden;
 }
 .conteiner-cont-prin{
     width: 700px;
@@ -76,8 +77,24 @@ a:link, a:visited{
 }
 
 #foto-perfil{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    left: 75%;
+    top: -50%;
     position: relative;
+}
+.conteiner-habil{
+    width: 100vw;
+    height: 200px;
+    background-color: blue;
+}
+.cont-habil-conteudo{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    margin: auto;
+}
+.paragrafo-hab{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
 }

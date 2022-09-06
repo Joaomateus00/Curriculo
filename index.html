@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
 </head>
-<body onload="" >
+<body>
     <div class="conteiner-menu">
         <header id="nome">
             <a href="index.html">João Mateus dos Santos</a>
         </header>
         <nav  class="menu-nav">
             <ul>
-                <a onmouseover="onOver(this)" href="./htmls/sobre.html" target="_blank" ><li>Sobre</li></a>
-                <a onmouseover="onOver(this)" href="./htmls/projetos.html" target="_blank"><li>Projetos</li></a>
+                <a id="link-sobre" onmouseover = "onOver('sobre')"
+                onmouseout="onOutsob('sobreout')" href="./htmls/sobre.html" target="_blank" ><li>Sobre</li></a>
+                <a id="link-proj" onmouseover = "onOverp('proj')" 
+                onmouseout="onOutproj('projout')" href="./htmls/projetos.html" target="_blank"><li>Projetos</li></a>
             </ul>
         </nav>
         <a href="https://www.instagram.com/joaoomateus00/" target="_blank"><img class="img-menu" src="imagens/instagram (1).png" alt="instagram"></a>
@@ -23,19 +26,21 @@
     </div> 
     <div class="conteiner-conteudo">
         <div class="conteiner-cont-prin">
-            <p class="paragrafo-prin"> Olá, me chamo <strong> João Mateus </strong>tenho 22 anos e estou aprendendo Desenvolvimento Web, por enquanto não tenho nenhuma formação em uma instituição de ensino superior mas estou fazendo o curso do <strong> Programador BR: Desenvolvimento Web Full Stack</strong>.</p>
-            <p class="paragrafo-prin">Comecei recentemente a me interessar por programação e desenvolvimento web, logo de cara fiquei fascinado por tamanha quantidade de opções e possibilidades. Já passei por lógica de programação com o Professor Gustavo Guanabara e até mesmo Pyhton pelo mesmo. Agora estou mais focado em Desenvolvimento Web, e a cada dia eu acordo já querendo modificar ou criar algo. A programação já é tão parte da minha vida que não consigo não me ver trabalhando com ela, estou somente a procura da oportunidade.</p>
+            <p id="paragrafo-prin"> Olá, me chamo <strong> João Mateus </strong>tenho 22 anos e estou aprendendo Desenvolvimento Web, por enquanto não tenho nenhuma formação em uma instituição de ensino superior mas estou fazendo o curso do <strong> Programador BR: Desenvolvimento Web Full Stack</strong>.
+            <br>Comecei recentemente a me interessar por programação e desenvolvimento web, logo de cara fiquei fascinado por tamanha quantidade de opções e possibilidades. Já passei por lógica de programação com o Professor Gustavo Guanabara e até mesmo Pyhton pelo mesmo. Agora estou mais focado em Desenvolvimento Web, e a cada dia eu acordo já querendo modificar ou criar algo. A programação já é tão parte da minha vida que não consigo não me ver trabalhando com ela, estou somente a procura da oportunidade.</p>
+            <button onclick="onOverprg('tradutor')">Clique para traduzir</button>
         </div>
         <img id="foto-perfil" src="imagens/perfil.png" alt="foto de perfil">
     </div>
     <div class="conteiner-habil">
         <div class="cont-habil-conteudo">
-            <h1 id="titulo-hab">Habilidades</h1>
+            <h1 id="titulo-hab" onmouseenter="skillOn('habil')"
+            onmouseout="skillOut('habil')">Habilidades</h1>
             <p class="paragrafo-hab">HTML</p><img class="logotipo" src="imagens/icons8-html-5-48.png" alt="logo html">
             <p class="paragrafo-hab">CSS</p><img class="logotipo-css" src="imagens/icons8-css3-48.png" alt="logo css">
             <p class="paragrafo-hab">JavaScript</p><img class="logotipo" src="imagens/script-java.png" alt="logo JavaScript">        
         </div>
     </div>
-    <script src="script.js"> </script>
+    
 </body>
 </html>

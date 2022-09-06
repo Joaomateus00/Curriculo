@@ -36,7 +36,7 @@ body{
 ul{
     list-style-type: none;
     text-align: center;
-    margin-top: 0px;
+    
 }
 li{
     display: inline-block;
@@ -55,6 +55,26 @@ a:link, a:visited{
     text-decoration: none;
     color: black;
 }
+#link-sobre{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 20px;
+    position: relative;
+    padding: 0;
+}
+#link-proj{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 20px;
+    position: relative;
+    padding: 0;
+}
 .conteiner-conteudo{
     width: 100vw;
     height: 65vh;
@@ -66,7 +86,7 @@ a:link, a:visited{
     top: 20%;
     left: 30px;
 }
-.paragrafo-prin{
+#paragrafo-prin{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: justify;
@@ -78,7 +98,7 @@ a:link, a:visited{
 
 #foto-perfil{
     left: 75%;
-    top: -50%;
+    top: -45%;
     position: relative;
 }
 .conteiner-habil{
@@ -118,6 +138,15 @@ h1{
     position: relative;
     left: 30px;    
 }
+button{
+    border-color: #F7CE68;
+    background-color: #FBAB7E;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 /* Inicio CSS SOBRE.HTML  */
 .cont-sobre{
@@ -134,4 +163,49 @@ h1{
     margin-left: 15px;
     margin-top: 10px;
     text-align: justify;
+}
+
+/* CSS projetos */
+
+.conteiner-projfabi{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    border: black 2px solid;
+    margin-top: 20px;
+}
+.img-proj{
+    width: 500px;
+    height: 300px;
+}
+.conteiner-projchurras{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    border: black 2px solid;
+}
+
+.conteiner-projcapt{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow-y: hidden;
+    border: black 2px solid;
+}
+.titulos{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.titulos:hover{
+    text-decoration: underline blue;
 }

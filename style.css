@@ -209,3 +209,11 @@ button{
 .titulos:hover{
     text-decoration: underline blue;
 }
+.conteiner-memoria{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow-y: hidden;
+    border: black 2px solid;
+}

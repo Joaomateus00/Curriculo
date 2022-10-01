@@ -217,3 +217,14 @@ button{
     overflow-y: hidden;
     border: black 2px solid;
 }
+
+.conteiner-velha{
+    
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow-y: hidden;
+    border: black 2px solid;
+    
+}

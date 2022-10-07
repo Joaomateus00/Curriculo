@@ -167,6 +167,7 @@ button{
 
 /* CSS projetos */
 
+
 .conteiner-projfabi{
     width: 500px;
     height: 300px;
@@ -227,4 +228,65 @@ button{
     overflow-y: hidden;
     border: black 2px solid;
     
+}
+@media screen and (max-width:900px) {
+    .conteiner-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #nome{
+        font-size: 13px;
+        left: 5%;
+
+    }
+    li{
+        font-size: 13px;
+        margin: 0;
+    }
+    .img-menu{
+        width: 20px;
+        height: 20px;
+        top: 27%;
+        left: 0%;
+    }
+    .conteiner-conteudo{
+        width: 350px;
+        height: 700px;
+    }
+    .conteiner-cont-prin{
+        width: 300px;
+    }
+    #paragrafo-prin{
+        font-size: 15px;
+    }
+    #foto-perfil{
+        left: 30%;
+        top: 68%;
+        position: absolute;
+    }
+    .conteiner-projfabi{
+        width: 350px;
+    }
+    .conteiner-projchurras{
+        width: 350px;
+    }
+    .conteiner-projcapt{
+        width: 350px;
+    }
+    .conteiner-memoria{
+        width: 350px;
+    }   
+    .conteiner-velha{
+        width: 350px;
+    }
+    .img-proj{
+        width: 350px;
+        height: 300px;
+    }
+    .titulos{
+        font-size: 20px;
+        position: relative;
+        left: 0%;
+    }
 }

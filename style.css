@@ -256,14 +256,24 @@ button{
     }
     .conteiner-cont-prin{
         width: 300px;
+
     }
     #paragrafo-prin{
         font-size: 15px;
     }
     #foto-perfil{
-        left: 30%;
-        top: 68%;
-        position: absolute;
+        left: 20%;
+        top: 22%;
+        position: relative;
+    }
+    .cont-sobre{
+        height: 900px;
+    }
+    .conteudo-sobre{
+       height: 900px;
+    }
+    .cont-habil-conteudo{
+        width: 400px;
     }
     .conteiner-projfabi{
         width: 350px;

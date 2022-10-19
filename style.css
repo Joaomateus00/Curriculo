@@ -167,6 +167,16 @@ button{
 
 /* CSS projetos */
 
+.conteiner-gastronoma{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    border: black 2px solid;
+    margin-top: 20px;
+}
 
 .conteiner-projfabi{
     width: 500px;
